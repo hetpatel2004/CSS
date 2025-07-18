@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-color</title>
+    <style>
+        .example1{
+            background-clip: padding-box;
+            background-color: skyblue;
+            border: 10px dotted black;
+            padding: 10px;
+        }
+        .example2{
+            background-clip: border-box;
+            border: 10px dotted black;
+            background-color: skyblue;
+            padding: 10px;
+        }
+        .example3{
+            background-color: skyblue;
+            padding: 10px;
+            border: 10px dotted black;
+            background-clip: content-box;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <h1>Background clips </h1>
+    <hr>
+    <div>
+    <h3>background-clip padding-box</h3>
+    <div class="example1">
+        <p>Using background-clip padding-box</p>
+    </div>
+    </div>
+    </section>
+    <hr>
+    <section>
+        <h1>background-clip borderbox</h1>
+        <div class="example2">
+            <p> Using background-clip borderbox</p>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h1>background-clip content-box</h1>
+        <div class="example3">
+            <p>Using background-clip content-box</p>
+        </div>
+        <hr>
+    </section>
+</body>
+</html>

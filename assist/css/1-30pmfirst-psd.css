@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+    margin: 0 auto;
+}
+
+.bg-colour-header {
+    background-color: #303030;
+}
+
+li {
+    color: white;
+    /* margin: 15px 15px; */
+    font-size: x-large;
+    display: block;
+    margin-right: 15px;
+
+}
+
+.alc {
+    align-items: center;
+}
+
+.jsc {
+    justify-content: space-around;
+}
+
+.contanier {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------------------------section-one--------------------------------------------------------------------- */
+
+.sec-one-bg-img {
+    background-image: url(../image/sec-one.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* .sec-one-pd {
+    padding: 200px;
+    margin: 0 auto;
+} */
+
+.sec-title {
+    padding-bottom: 30px;
+    color: white;
+    font-size: 100px;
+   
+}
+
+.sub-title {
+    color: white;
+    width: 27%;
+}
+.sec-one-button{
+    background-color:  #e8631c;
+    padding: 20px ,50px;
+    color: white;
+    font-size: 20px;
+}
+.main-text{
+    padding-left: 90px;
+     padding: 200px;
+}
