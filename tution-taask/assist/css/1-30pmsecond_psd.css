@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-bg-colour{
+    background-color: #21243d;
+}
+.d-flex{
+    display: flex;
+}
+li{
+    color: white;
+    list-style: none;
+    margin-right:20px ;
+    font-size: 20px;
+}
+.jsc{
+    justify-content: space-around;
+}
+.alc{
+    align-items: center;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+.sec_one_bg_imag{
+    background-image:url(../image/toyota-new-fortuner-legender-chiangmai-thailand-april-suv-car-road-no-km-city-246470979.jpg);
+    height: 100px;
+}
+.sec_one_lair{
+     background-color: #ffd17e;
+}
