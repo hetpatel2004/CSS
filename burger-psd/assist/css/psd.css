@@ -8,14 +8,7 @@
             /* background-color: rgba(0, 0, 0, 0.648); */
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9999999999999999) 85%, rgba(0, 0, 0, 0.9999999999999999) 100%);
             color: white;
-        }
-
-        li {
-            display: inline-block;
-            margin-right: 25px;
-            align-items: center;
-        }
-
+        } 
         .d-flex {
             display: flex;
         }
@@ -26,6 +19,7 @@
 
         main {
             align-items: center;
+            margin: 0 50px;
         }
 
         .container {
@@ -41,6 +35,9 @@
         }
         nav li{
             font-size: x-large;
+             display: inline-block;
+            margin-right: 25px;
+            align-items: center;
         }
         /* --------------------------------------------------------------------sec-one-------------------------------- */
         .sec-one-img {
@@ -384,16 +381,16 @@
         padding: 100px;
         margin: 0 auto;
     }
-        .sec-8 h3{
-            font-size: 30px;
-            width: 40%;
+        .sec-8 p{
+            font-size: 38px;
+            width: 61%;
             margin: 0 auto;
             text-align: center;
-          
+          padding: 25px 0;
         }
         .sec-8 h4{
             text-align: center;
-            font-size: 50px;
+            font-size: 60px;
         }
         .input-div{
             background-color: white;
@@ -402,20 +399,25 @@
             /* text-align: center; */
             
         }
-        .sec-8 button{
-            display: inline;
+        .sec-8-input input{
+            border-radius: 30px 0 0 30px ;
+            padding: 15px 100px;
+            border: none;
+        }
+        .sec-8-input{
+            margin: 0 auto;
+            justify-content: center;
+            padding: 60px 0 100px 0;
+        }
+        .sec-8-input button{
+            border-bottom-right-radius: 30px;
+            border-top-right-radius: 30px ;
+            margin-left: -50px;
+            padding: 15px 50px;
             background-color: #f64b3c;
             color: white;
             border: none;
-            padding: 5px;
-            
         }
-        .sec-8 input{
-            display: inline;
-        background-color: white;
-        color: rgba(0, 0, 0, 0.381);
-        border: none;
-    }
     /* <!-- -----------------------------------------------------footer-------------------------------------------------------------- --> */
     .footer{
         background-color: black;
