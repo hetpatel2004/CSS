@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.offer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.offer h3{
+    text-align: center;
+}
+header {
+    background-color: white;
+    color: white;
+}
+header li{
+    display: inline-block;
+}
