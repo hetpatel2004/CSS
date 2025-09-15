@@ -7,34 +7,42 @@
     .d-flex {
       display: flex;
     }
-
+    .jsc{
+      justify-content: space-between;
+    }
+    .alt{
+      align-items: center;
+    }
+    .container{
+      width: 1400px;
+      margin: 0 auto;
+    }
     .offer {
       background-color: black;
       color: white;
       text-align: center;
     }
 
-    .offer h3 {
-      text-align: center;
-    }
-
     header {
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0);
       color: white;
       padding: 10px;
       justify-content: space-around;
       text-align: center;
       position: fixed;
       width: 100%;
+      /* top: 0; */
     }
 
     header li {
       display: inline-block;
+      align-items: center;
     }
 
     header a {
       text-decoration: none;
       margin-right: 10px;
+      color: black;
     }
 
     header nav {
@@ -44,6 +52,10 @@
     .pos-relative {
       position: relative;
     }
+    .header-con{
+      text-align: center;
+      /* justify-content: center; */
+    }
 
     /* --------------------------------------sec 1--------------------------------------- */
     .sec1 img {
@@ -51,11 +63,48 @@
       height: 100%;
     }
     
-    /* --------------------------------------sec 1--------------------------------------- */
+    /* --------------------------------------sec 2--------------------------------------- */
     .sec2 {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: sans-serif;
     }
-    .sec2-images image{
-        height: 70%;
+    .sec2-title{
+      text-align: center;
+      padding: 50px 80px 50px 80px;
+      /* font-family: sans-serif; */
+      font-size: 30px;
+      font-weight: 200px;
+    }
+    .sec2-images img{
+        /* height: 20%; */
         width: 70%;
     }
+    .set2-p1{
+      width: 25%;
+      position: relative;
+      text-align: center;
+      padding: 5px 7px 5px 2px;
+    }
+    .set2-coman-div{
+      width: 25%;
+      position: relative;
+      text-align: center;
+      padding: 5px 7px;
+    }
+    .sec2-padding{
+      padding-bottom: 50px;
+    }
+      /* --------------------------------------sec 3--------------------------------------- */
+      .sec3-title{
+        text-align: center;
+        padding: 20px  80px  50px  80px;
+        font-size: 30px;
+        font-weight: 200px;
+        /* padding: 30px 0; */
+      }
+      /* --------------------------------------sec 4--------------------------------------- */
+      .sec4 img {
+        width: 100%;
+        height: 100%;
+      }
+      /* --------------------------------------sec 5--------------------------------------- */
+      
