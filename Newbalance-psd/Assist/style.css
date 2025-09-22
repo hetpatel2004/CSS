@@ -8,6 +8,10 @@
     justify-content: space-between;
     align-items: center;
 }
-header{
-    width: 25%s;
+.logo_image img{
+width: 90px;
+}
+
+.d-flex{
+    display: flex;
 }
