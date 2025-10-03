@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+.cont-us-logo {
+    width: 30px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+nav ul{
+
+    display: inline-block;
+    display: flex;
+}
