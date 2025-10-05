@@ -41,7 +41,7 @@ nav a {
 .sec-1-image img{
     width: 100%;
 }
-/* -------------------------------------------------------------------section1---------------------------- */
+/* -------------------------------------------------------------------section2---------------------------- */
 .sec2_box {
     text-align: center;
     border-right: 1px solid black;
@@ -54,4 +54,17 @@ nav a {
 }
 .sec-2-image img{
     width: 100%;
+}
+    /* -------------------------------------------------------------------section3---------------------------- */
+.sec-3-sec-heading{
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
+.sec-3-car-option img{
+    width: 200px;
+}
+.sec-3-options{
+    text-align: center;
+    padding: 5px 30px;
 }
