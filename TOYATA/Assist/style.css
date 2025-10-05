@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container {
-    width: 1400px;
+    width: 1300px;
     margin: 0 auto;
 }
 .cont-us-logo {
@@ -15,8 +15,43 @@
     justify-content: space-between;
     text-align: center;
 }
+header{
+    
+    margin: 0 10px;
+    padding: 30px;
+}
+.d-flex{
+    display: flex;
+}
+.red-toyatalogo{
+    margin-right: 20px;
+}
 nav ul{
 
     display: inline-block;
     display: flex;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px 0 5px;
+}
+/* -------------------------------------------------------------------section1---------------------------- */
+.sec-1-image img{
+    width: 100%;
+}
+/* -------------------------------------------------------------------section1---------------------------- */
+.sec2_box {
+    text-align: center;
+    border-right: 1px solid black;
+    padding: 20px 82px;
+    justify-content: space-around;
+}
+.sec2_box-lastbox {
+    text-align: center;
+    padding: 20px 82px;
+}
+.sec-2-image img{
+    width: 100%;
 }
