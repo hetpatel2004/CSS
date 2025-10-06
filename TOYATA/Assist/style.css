@@ -1,70 +1,127 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-    width: 1300px;
-    margin: 0 auto;
+  width: 1300px;
+  margin: 0 auto;
 }
 .cont-us-logo {
-    width: 30px;
+  width: 30px;
 }
 .row {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
-header{
-    
-    margin: 0 10px;
-    padding: 30px;
+header {
+  margin: 0 10px;
+  padding: 30px;
 }
-.d-flex{
-    display: flex;
+.d-flex {
+  display: flex;
 }
-.red-toyatalogo{
-    margin-right: 20px;
+.red-toyatalogo {
+  margin-right: 20px;
 }
-nav ul{
-
-    display: inline-block;
-    display: flex;
-    list-style: none;
+nav ul {
+  display: inline-block;
+  display: flex;
+  list-style: none;
 }
 nav a {
-    text-decoration: none;
-    color: black;
-    margin: 0 20px 0 5px;
+  text-decoration: none;
+  color: black;
+  margin: 0 20px 0 5px;
 }
 /* -------------------------------------------------------------------section1---------------------------- */
-.sec-1-image img{
-    width: 100%;
+.sec-1-image img {
+  width: 100%;
 }
 /* -------------------------------------------------------------------section2---------------------------- */
 .sec2_box {
-    text-align: center;
-    border-right: 1px solid black;
-    padding: 20px 82px;
-    justify-content: space-around;
+  text-align: center;
+  border-right: 1px solid black;
+  padding: 20px 82px;
+  justify-content: space-around;
+}
+.sec2_box img:hover{
+    transform:  rotate(15deg);
 }
 .sec2_box-lastbox {
     text-align: center;
     padding: 20px 82px;
 }
-.sec-2-image img{
-    width: 100%;
+.sec2_box-lastbox img:hover{
+    transform:  rotate(15deg);
 }
-    /* -------------------------------------------------------------------section3---------------------------- */
-.sec-3-sec-heading{
+.sec-2-image img {
+  width: 100%;
+}
+/* -------------------------------------------------------------------section3---------------------------- */
+.sec-3-sec-heading {
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+}
+.sec-3-car-option img {
+  width: 200px;
+  padding: 30px;
+}
+.sec-3-options {
+  text-align: center;
+  padding: 5px 30px;
+  border: 2px solid black;
+  margin: 5px;
+}
+/* -------------------------------------------------------------------section4---------------------------- */
+.sec-4-sec-heading {
+    margin-top: 10px;
     text-align: center;
     padding: 20px;
     font-size: large;
 }
-.sec-3-car-option img{
-    width: 200px;
-}
-.sec-3-options{
+.sec4-box {
+    width: 24%;
+    /* border:1px dotted black ; */
     text-align: center;
-    padding: 5px 30px;
+}
+.sec4-box img{
+    width: 100%;
+}
+.sec4-box a{
+    text-decoration: none;
+}
+.sec4-box h4{
+    font-size: larger;
+    color: black;
+}
+.sec4-box button{
+    color: white;
+    background: red;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    /* font-size: ; */
+}
+.sec4-box:hover{
+    box-shadow: 1px 1px;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.4s ease; /* Smooth animation */
+}
+/* -------------------------------------------------------------------section5---------------------------- */
+.col-50{
+    width: 49%;
+    margin: 0 auto;
 }
