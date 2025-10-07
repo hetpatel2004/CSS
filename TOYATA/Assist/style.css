@@ -62,16 +62,16 @@ nav a {
 /* -------------------------------------------------------------------section3---------------------------- */
 .sec-3-sec-heading {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   font-size: large;
 }
 .sec-3-car-option img {
   width: 200px;
-  padding: 30px;
+  padding: 15px;
 }
 .sec-3-options {
   text-align: center;
-  padding: 5px 30px;
+  padding: 5px 10px;
   border: 2px solid black;
   margin: 5px;
 }
