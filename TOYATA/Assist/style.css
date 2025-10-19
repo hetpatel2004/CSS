@@ -89,6 +89,7 @@ nav a {
     width: 24%;
     /* border:1px dotted black ; */
     text-align: center;
+    margin-bottom: 30px;
 }
 .sec4-box img{
     width: 100%;
@@ -99,6 +100,7 @@ nav a {
 .sec4-box h4{
     font-size: larger;
     color: black;
+    margin-bottom: 5px;
 }
 .sec4-box button{
     color: white;
@@ -111,7 +113,7 @@ nav a {
 .sec4-box:hover{
     box-shadow: 1px 1px;
 }
-.box {
+/* .box {
     width: 150px;
     height: 150px;
     background-color: #3498db;
@@ -121,11 +123,11 @@ nav a {
     align-items: center;
     font-weight: bold;
     border-radius: 10px;
-    transition: all 0.4s ease; /* Smooth animation */
-}
+    transition: all 0.4s ease; /* Smooth animation 
+  } */
 /* -------------------------------------------------------------------section5---------------------------- */
 .col-50{
-    width: 49%;
+  width: 49%;
     margin: 0 auto;
 }
 .col-90{
@@ -145,6 +147,7 @@ nav a {
   border: 1px solid black;
   /* padding: 20px 15px; */
   border-radius: 10px;
+  margin-bottom: 45px;
 }
 .col-10 h5{
   color: rgba(128, 128, 128, 0.829);
@@ -161,9 +164,11 @@ nav a {
   font-size: small;
 }
 .sec-5 h3{
- font-size: xx-large;
- padding: 20px 0 2px 0;
+  font-size: xx-large;
+  padding: 20px 0 2px 0;
 }
 .sec-5 p{
   padding: 0 0 5px 0;
 }
+/* -------------------------------------------------------------------section6---------------------------- */
+
