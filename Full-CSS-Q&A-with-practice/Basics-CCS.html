@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basic</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            background: linear-gradient(rgb(224, 223, 223) ,rgb(91, 170, 202)) ;
+            /* text-align: center; */
+            align-items: center;
+        }
+        .box{
+            /* border: 1px solid black; */
+            padding: 10px; 
+            margin:0 20px;
+            /* background-color: rgba(128, 128, 128, 0.498); */
+        }
+    </style>
+</head>
+<body>
+    <section>
+            <h1>CSS(CastCadind Style Sheets)</h1>
+            <ol>
+                <div class="box">
+                    <h4><li>What is css</li></h4>
+                    <p> Full form of CSS is CastCadind Style Sheets </p>
+                    <p>Use to control the presentation and layout of HTML elements</p>
+                </div>
+                <div class="box">
+                    <h4><li>Types of CSS</li></h4>
+                    <p>There are 3 types of applying CSS</p>
+                    <p>Inline</p> <!-- in line we have to write like this <h1 style="color: aqua;"></h1>  -->
+                    <p> Inline CSS is typically used for quick testing or to apply a one-time style to an element. It’s not recommended for large-scale or production use.</p>
+                    <p> we can use multiple external CSS files can be linked using multiple <link> tags. The order in which they are linked affects which styles take precedence.</p>
+                    <hr>
+                    <p>Inturnal</p> <!-- we have to write style tag in head part of html code as like given in this file  -->
+                    <hr>
+                    <p>Extrenal</p> <!-- we have to link css file in here -->
+                    <p>External CSS keeps style rules separate from HTML, promotes reusability across multiple pages, and makes code easier to maintain and scale.</p>
+                </div>
+            </ol>
+        </section>
+</body>
+</html>
