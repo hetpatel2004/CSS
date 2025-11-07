@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transation</title>
+    <style>
+        
+        .box1{
+            height: 100px;
+            width: 100px;
+            /* padding: 30px 30px; */
+            background-color: blueviolet;
+            /* text-align: center; */
+            /* align-items: center; */
+            border: 2px solid black;
+            /* transition: 5s ease 2s; */
+            animation-name: box;
+            position: relative;
+            animation-duration: 10s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+        /* .box1:hover{
+            background-color: red;
+            color: white;
+        } */
+        @keyframes box{
+            0%{
+               background-color: aqua;
+               left: -400px;
+               top: 0px; 
+
+            }
+            25%{
+               background-color: rgb(149, 255, 0);
+               top: 0px;
+               left: 200px;
+                transform: rotate(45deg); 
+            }
+            50%{
+               background-color: rgb(255, 0, 242);
+               top: 200px;
+               left: 200px;
+               transform: rotate(90deg);
+            }
+            75%{
+                background-color: rgb(255, 0, 72); 
+                top: 200px;
+                left: 0px;
+                transform: rotate(180deg);
+                
+                
+            }
+            100%{
+                background-color: rgb(255, 0, 72); 
+                top: 0px;
+                left: 0px;
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box1">
+            <span>box1</span>
+            </div>
+            
+    </section>
+</body>
+</html>
