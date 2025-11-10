@@ -20,10 +20,16 @@
 
         .box {
             /* border: 1px solid black; */
-            padding: 10px;
-            margin: 0 20px;
+            padding: 10px 40px;
+            margin: 0 10px;
+            border: 1px solid black;
+            margin-bottom: 5px;
             /* background-color: rgba(128, 128, 128, 0.498); */
         }
+
+        /* .box:hover{
+            
+        } */
     </style>
 </head>
 
@@ -43,71 +49,126 @@
                 <h4>
                     <li> Class Selector</li>
                 </h4>
-                <p>Meaning: Selects elements with a specific class attribute</p>
+                <p>Meaning: Selects elements with a specific class attribute <br>
+                    p{
+                    background-colour:red;
+                    }
+                </p>
                 <p>have to put "." before writing any attribute</p>
+                <p>and it referes to element name nothing else</p>
             </div>
             <div class="box">
                 <h4>
                     <li>ID Selector</li>
                 </h4>
-                <p>Meaning: Selects an element with a specific id
+                <p>Selects an element with a specific id and writen like this <br>
+                    #abc{
+                    background-colour:red;
+                    }
                     <br>
-                    Note: ID must be unique in a page
+                    ID must be unique in a page
+                    <br>
+                    and it referes to "#" sine
                 </p>
             </div>
             <div class="box">
                 <h4>
-                    <li>Selector</li>
+                    <li>Universal Selector</li>
                 </h4>
-                <p></p>
+                <p>Universal selector use to all css in all over the page and writen like this <br>
+                    *{
+                    margin = 0;
+                    padding = 0;
+                    }</p>
+                <P>and it referes to "*" sine</P>
             </div>
             <div class="box">
                 <h4>
-                    <li>Selector</li>
+                    <li>Grouping Selector</li>
                 </h4>
-                <p></p>
+                <p>Grouping selector use to allply tings on two or more then that<br>
+                    h1,h2,h3,{
+                    background-colour:red;
+                    }</p>
+                <P>and it referes to "," sine</P>
             </div>
             <div class="box">
                 <h4>
-                    <li>Selector</li>
+                    <li>Decident Selector</li>
                 </h4>
-                <p></p>
+                <p>Targets elements that are nested inside a specific parent. <br>
+                    div p {
+                    color: green;
+                    }
+                </p>
+                <p>and it referes to " " (space) sine</p>
+                <p>mostly used while creating PSD</p>
             </div>
             <div class="box">
                 <h4>
-                    <li>Selector</li>
+                    <li>Child Selector</li>
                 </h4>
-                <p></p>
+                <p>Targets elements that are nested inside a specific parent. <br>
+                    ul > li {
+                    list-style-type: square;
+                    }
+                </p>
+                <p>and it referes to ">" sign </p>
             </div>
             <div class="box">
                 <h4>
-                    <li>Selector</li>
+                    <li>Adjacent Sibling Selector</li>
                 </h4>
-                <p></p>
+                <p>Targets the first element that comes immediately after another.<br>
+                    h1 + p {
+                    color: red;
+                    }
+                </p>
+                <p>and it referes to "+" sign </p>
             </div>
             <div class="box">
                 <h4>
-                    <li>Selector</li>
+                    <li>General Sibling Selector</li>
                 </h4>
-                <p></p>
+                <p>Selects all siblings after a specified element. <br>
+                    h1 ~ p {
+                    font-style: italic;
+                    }
+                </p>
+                <p>and it referes to "~" sign </p>
             </div>
             <div class="box">
                 <h4>
-                    <li>Selector</li>
+                    <li> Pseudo-Classes Selector</li>
                 </h4>
-                <p></p>
+                <p>Define a special state of an element (hover, active, etc). <br>
+                    h2:hover {
+                    color: orange;
+                    }
+                </p>
+                <p>and it referes to ":" sign </p>
             </div>
             <div class="box">
                 <h4>
-                    <li>Selector</li>
+                    <li> Pseudo-Element Selector</li>
                 </h4>
-                <p></p>
+                <p>Style specific parts of an element. <br>
+                    p::first-line {
+                    font-weight: bold;
+                    }
+                </p>
+                <p>and it referes to "::" sign </p>
             </div>
             <div class="box">
                 <h4>
-                    <li>Selector</li>
+                    <li>Atribute Selector</li>
                 </h4>
-                <p></p>
+                <p>Apply on any atribute <br>
+                    input[required] {
+                    border: 2px solid red;
+                    }
+                </p>
+                <p>and it referes to "[]" sign </p>
             </div>
         </ol>
     </section>
