@@ -1,55 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>column media-quary </title>
-    <style>
-        *{
+    <!-- <style>
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        div{
+
+        div {
             border: 2px solid;
         }
-        .row{
+
+        .container {
+            width: 1400px;
+            margin: 0 auto;
+        }
+
+        .row {
             display: flex;
         }
-        .col-30{
+
+        .col-30 {
             width: 30%;
             margin: 0 auto;
         }
-        .col-50{
+
+        .col-50 {
             width: 50%;
             margin: 0 auto;
         }
-        .col-25{
+
+        .col-25 {
             width: 25%;
             margin: 0 auto;
         }
-        .col-20
-        {
-            width: 25%;
+
+        .col-20 {
+            width: 20%;
             margin: 0 auto;
         }
-        @media (min-width: 576px) {  }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+        /*  1.column 
+            2.container
+            3.weare px are there  
+            these three things on which media quary is applyed while creating psd to make webside resopnsive */
+        @media (min-width: 576px) {
+            .container {
+                width: 576px;
+                margin: 0 auto;
+                background-color: lightblue;
+            }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+            .col-20 {
+                width: 100%;
+            }
 
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+            .col-25 {
+                width: 100%;
+            }
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {  }
-    </style>
+            .col-30 {
+                width: 100%;
+            }
+
+            .col-50 {
+                width: 100%;
+            }
+
+            .row {
+                flex-wrap: wrap;
+            }
+        }
+
+        /* // Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+            .container {
+                width: 750px;
+                margin: 0 auto;
+                background-color: chartreuse;
+            }
+
+            .col-20 {
+                width: 50%;
+            }
+
+            .col-25 {
+                width: 50%;
+            }
+
+            .col-30 {
+                width: 50%;
+            }
+
+            .col-50 {
+                width: 50%;
+            }
+
+            .row {
+                flex-wrap: wrap;
+            }
+        }
+
+        /* // Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            .container {
+                width: 980px;
+                margin: 0 auto;
+                background-color: burlywood;
+            }
+
+            
+            .col-20 {
+                width: 20%;
+            }
+
+            .col-25 {
+                width: 25%;
+            }
+
+            .col-30 {
+                width: 30%;
+            }
+
+            .col-50 {
+                width: 50%;
+            }
+
+            .row {
+                flex-wrap: wrap;
+            }
+            
+        }
+
+        /* // X-Large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .container {
+                width: 1190px;
+                margin: 0 auto;
+                background-color: blue;
+            }
+            
+            .col-20 {
+                width: 20%;
+            }
+
+            .col-25 {
+                width: 25%;
+            }
+
+            .col-30 {
+                width: 30%;
+            }
+
+            .col-50 {
+                width: 50%;
+            }
+            .row {
+                flex-wrap: wrap;
+            }
+        }
+
+        /* // XX-Large devices (larger desktops, 1400px and up) */
+        @media (min-width: 1400px) {
+            .row {
+                background-color: red;
+                flex-wrap: wrap;
+            }
+        }
+    </style> -->
 </head>
+
 <body>
-    <section>
+    <!-- <section class="container">
         <div class="row">
             <div class="col-50">col-50</div>
             <div class="col-50">col-50</div>
@@ -72,6 +199,8 @@
             <div class="col-20">col-20</div>
             <div class="col-20">col-20</div>
         </div>
-    </section>
+    </section> -->
+
 </body>
+
 </html>

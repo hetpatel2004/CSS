@@ -1,11 +1,11 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 header{
     background-color: #daac00;
-    padding: 20px;
+    padding: 13px;
 }
 .row
 {
@@ -27,7 +27,7 @@ nav li {
     padding-left: 50px;
     padding-right: 50px;
 }
------------------------------------------------- sec 1------------------
+/* ------------------------------------------------ sec 1------------------ */
 .sec-1{
     background-color: #fcc302;
     color: white;
@@ -38,6 +38,9 @@ nav li {
 }
 .col-60{
     width: 60%;
+}
+.col-50{
+    width: 50%;
 }
 .col-40{
     width: 40%;
@@ -63,24 +66,17 @@ nav li {
     background-color: #fcc302;
     border: 1px solid white;
     color: white;
-} */
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+} 
+/* ----------------------------------------------sec2------------------------ */
+.pos-rel{
+    position: relative;
 }
-header{
-    background-color: black;
+.pos-ab{
+    position:absolute;
 }
-.row{
-    display: flex;
-}
-nav li{
-    display: inline-block;
-    color: white;
-}
-.tac{
-    text-align: center;
+.sec-2-p2{
+    background-image: url(../image/sec-2-p2image.png);
+    background-color: #fcc20274;
+    height: 400px;
+    width: 400px;
 }
