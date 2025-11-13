@@ -15,14 +15,34 @@
 .jsc{
     justify-content: space-between;
 }
+.tar{
+    text-align: right;
+}
 .container{
     width: 1400px;
     margin: 0 auto;
 }
+.col-50{
+    width: 50%;
+    margin: 0 auto;
+}
+.col-60{
+    width: 60%;
+    margin: 0 auto;
+}
+.col-40{
+    width: 40%;
+    margin: 0 auto;
+}
+.col-30{
+    width: 30%;
+    margin: 0 auto;
+}
+
 header{
     background-color: #daac00;
     color: white;
-    padding: 10px;
+    padding: 10px 70px ;
 }
 
 header li{
@@ -30,32 +50,146 @@ header li{
     padding-right: 20px;
     font-size: 25px;
 }
+.po-ab {
+    position: absolute;
+}
+.po-re {
+    position: relative;
+}
+/* --------------------------------- sec-2------------------------------- */
 .sec-1{
     background-color: #fcc302;
     color: white;
+    padding-left: 70px;
+}
+.sec-1 .col-60{
+    padding-left: 20px;
 }
 .sec-1 h1{
-    font-size: 50px;
-    width: 60%;
+    font-size: 75px;
+    width: 77%;
     padding-bottom: 20px;
 }
 .sec-1 p{
-    padding-bottom: 25px;
-    font-size: 25px;
+    padding-bottom: 35px;
+    font-size: 23px;
     width: 55%;
 }
-.sec-1 button{
-    padding: 7px 10px;
-    margin-right: 10px;
-}
 .sec-1-b1{
+    padding: 10px 20px;
+    margin-right: 10px;
     background-color: #00bec9;
     color: white;
-    border: solid 1px #00bec9;
-    
+    border: solid 1px #00bec9;  
+    border-radius: 5px;
 }
 .sec-1-b2{
+    padding: 10px 20px;
+    margin-right: 10px;
     background-color: #fcc302;
     color: white;
     border: solid 1px white;
+    border-radius: 5px;
+}
+.sec-1-p2 img{
+    padding-top: 35px;
+    width: 400px;
+}
+/* -----------------------------------------------------------sec2--------------------- */
+.sec-2{
+    padding:100px 100px 100px 60px;
+    margin-bottom: 11px;
+}
+.sec-2 h2{
+    font-size: 50px;
+    width: 80%;
+    padding-bottom: 20px;
+}
+.sec-2 p{
+    font-size: 25px;
+    width: 65%;
+    padding-bottom: 20px;
+}
+.sec-2-playbutton-po {
+    right: 400px;
+    top: 285px;
+    z-index: 2;
+}
+.sec-2-yello-box{
+    right: 465px;
+    bottom: 63px;
+}
+.sec-2-p2{
+    z-index: 1;
+    padding-left:100px
+}
+/* -----------------------------------------sec-3------------------------------------ */
+.sec-colour{
+    background-color: #fcc302;
+    color: white;
+}
+.sec-3-p1{
+    padding: 35px;
+}
+.sec-3-p1 h2{
+    padding: 20px 0;
+    font-size: 50px;
+}
+.sec-3-p1 p{
+     padding: 5px 0;
+    font-size: 25px;
+    width: 39%;
+    margin: 0 auto;
+}
+.sec-3-p2{
+    padding-bottom: 10px;
+}
+.sec-3-p2 h5{
+    padding:5px 0;
+    font-size: 25px;
+}
+.sec-3-p2 p{
+    padding:5px 0;
+    font-size: 20px;
+    width: 55%;
+    margin: 0 auto;
+}
+/* -------------------------------media quary ------------------------ */
+
+.sec-4{
+    padding:100px 100px 100px 60px;
+    /* padding: 100px 0 ; */
+    margin-bottom: 11px;
+}
+.sec-4 h2{
+    font-size: 50px;
+    /* width: 80%; */
+    padding-bottom: 20px;
+}
+.sec-4 p{
+    font-size: 25px;
+    /* width: 65%; */
+    padding-bottom: 20px;
+}
+.sec-4-playbutton-po {
+    left: 322px;
+    top: 285px;
+    z-index: 2;
+}
+.sec-4-yello-box{
+    left: 85px;
+    bottom: 66px;
+}
+.sec-4-p1{
+    z-index: 1;
+}
+/* ------------------------------sec-5---------------------- */
+.sec-5-button{
+     padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #00bec9;
+    color: white;
+    border: solid 1px #00bec9;  
+    border-radius: 25px;
+    margin: 5px 0 15px 0;
 }
