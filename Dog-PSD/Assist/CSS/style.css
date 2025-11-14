@@ -193,3 +193,51 @@ header li{
     border-radius: 25px;
     margin: 5px 0 15px 0;
 }
+.sec-5-iframe-logos{
+    padding: 25px 25px 25px 100px;
+    text-align: center;
+    margin-left: 17px;
+}
+/* ----------------------------------------------sec-7-------------------- */
+.sec-7{
+    background-image: url(../image/sec-7-background\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+}
+.sec-7 h3{
+    padding: 10px 0 ;
+    font-size: 25px;
+}
+.sec-7 h4{
+    padding: 20px 0 0 0;
+    font-size: 30px;
+}
+/* ------------------------------------------sec-8----------------- */
+.col-25{
+    width: 24.5%;
+    margin: 0 auto;
+}
+.sec-8-text-div{
+    padding: 20px;
+    border: 1px solid;
+    border-top: none;
+    margin-bottom: 30px;
+}
+.sec-8-text-div h4{
+    font-size: 30px;
+}
+.sec-8-text-div h5{
+    color: #00bec9;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.sec-8-text-div p{
+    font-size: 18px;
+}
+/* ----------------------------------footer---------------- */
+footer{
+    background-color: #343434;
+    color: white;
+}
