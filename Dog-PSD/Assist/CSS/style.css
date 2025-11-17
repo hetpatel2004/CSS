@@ -236,8 +236,57 @@ header li{
 .sec-8-text-div p{
     font-size: 18px;
 }
+.sec-8-p1-image{
+    width: 420px;
+}
 /* ----------------------------------footer---------------- */
 footer{
     background-color: #343434;
     color: white;
 }
+
+
+/* --------------------------------media-quary------------------- */
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .container{
+        width: 576px;
+    }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container{
+        width: 768px;
+        margin: 0 auto;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+     .container{
+        width:  992px;
+        margin: 0 auto;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+     .container{
+        width:  1200px;
+        margin: 0 auto;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+     .container{
+        width:  1400px;
+        margin: 0 auto;
+    }
+ }
