@@ -1,0 +1,27 @@
+*{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top-black-heading{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    justify-content: space-between;
+}
+.top-black-heading p{
+    font-size: 15px;
+
+}
+.container{
+
+    width: 1400px;
+    margin: 0 auto;
+
+}
+.sec-1{
+    background-color: #f6f0e6;
+}
+.row{
+    display: flex;
+}
