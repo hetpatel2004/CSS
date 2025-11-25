@@ -4,27 +4,115 @@
     box-sizing: border-box;
 }
 .universal_pading{
-    padding: 15px;
+    padding: 20px;
 }
 .top-black-heading{
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 10px;
     justify-content: space-between;
 }
 .top-black-heading p{
-    font-size: 20px;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.jsc{
+    justify-content: space-between;
 }
 .container{
     width: 1400px;
     margin: 0 auto;
 }
 .hea-logo-div {
-    width: 200px;
+    width: 250px;
 }
 .sec-1{
-    background-color: #f6f0e6;
+    background-color: #c9bfae;
 }
 .row{
     display: flex;
+}
+nav li{
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 20px;
+    
+}
+.alc{
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.tac{
+    text-align: center;
+}
+.pos-abs{
+    position: absolute;
+}
+.pos-rel{
+    position: relative;
+}
+header{
+    padding: 20px;
+}
+.header-icon-div i{
+    padding-right: 37px;
+}
+.col-50{
+    width: 50%;
+}
+.sec-1-part1{
+   margin-top: 30px; 
+}
+.sec-1-part1 h1{
+    font-size: 80px;
+    width: 100%;
+}
+.sec-1-part1 p{
+   font-size: 21px;
+   width: 100%;
+   padding: 15px 0;
+}
+.sec-1-part1-1ptag{
+    letter-spacing: 4px;
+    color: brown;
+}
+.sec-1-part2 {
+    padding-left: 20px;
+}
+.sec-1-part2 img{
+    width: 90%;
+    padding: 15px;
+    /* position: absolute; */
+    z-index: 1;
+}
+.sec-1-part1 span{
+    color: brown;
+}
+.sec-1-part1 button{
+    padding: 15px 45px;
+    background-color: brown;
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.header-lamp{
+    left: 300px;
+    top: 0px;
+}
+.broun-div-sec-1{
+    height: 670px;
+    width: 450px;
+    background-color: brown;
+    position: absolute;
+    right: 0;
+    top: 140px;
+    border-radius: 400px 0 0 0 ;
+    overflow: hidden;
+}
+.header-lamp img{
+    width: 150px;
 }
