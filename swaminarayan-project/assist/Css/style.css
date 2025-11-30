@@ -1,15 +1,27 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
  header{
-
-     background-color: #FF9933;
+    width: 97%;
+     background-color: black;
+     border-radius: 40px;
+     color: white;
+     
+ }
+ body{
+    background-color: #FF9933;
+ }
+ .white-text{
+    color: white;
  }
  header a{
-    color: black;   
+    color: white;   
  }
-.custom-width{
-    width: 90%;
+ .hero-section {
+    height: 90vh;
+}
+.card-colour{
+   background-color: #dcb997;
 }
