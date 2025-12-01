@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="mx-auto mt-2 mb-2">
+    <header class="mx-auto mt-2 mb-2 sticky-top">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid justify-content-between">
                 <a class="navbar-brand" href="#">Savatube</a>
@@ -25,12 +25,21 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">About</a>
                             <a class="nav-link" href="#">Contact</a>
                             <a class="nav-link" href="#">Swami</a>
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false"> Dropdown</a>
-                            
+                        </div>
+                        <div class="dropdown mr-2">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./God.html">God</a></li>
+                                <li><a class="dropdown-item" href="./Sampraday.html">Sampraday</a></li>
+                                <li><a class="dropdown-item" href="./Temples.html">Temples</a></li>
+                                <li><a class="dropdown-item" href="./Sants.html">Saints</a></li>
+                                <li><a class="dropdown-item" href="./Aacharya.html">Aacharya</a></li>
+                            </ul>
                         </div>
                         <div>
                             <button type="button" class="btn btn-dark" onclick="logon()" target="_blank">login</button>
@@ -82,9 +91,8 @@
     <hr>
     <section>
         <div class="row g-0 bg-body-secondary position-relative">
-            <div class="col-md-6 mb-md-0 p-md-4 ml-5 mr-2">
-                <img src="./assist/Image/sec-4-img.png" class="w-100" title="Swaminarayan God"
-                    alt="swaminarayan God">
+            <div class="col-md-6 mb-md-0 p-md-4 ml-5 ">
+                <img src="./assist/Image/sec-4-img.png" class="w-100" title="Swaminarayan God" alt="swaminarayan God">
             </div>
             <div class="col-md-5 p-4 ps-md-0 align-items-center">
                 <h5 class="mt-0">A Brief History of Swaminarayan and His Contribution to Society</h5>
