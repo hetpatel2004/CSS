@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Slider with setTimeout</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .slider img {
+            width: 500px;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Image Slider using setTimeout</h2>
+
+    <div class="slider">
+        <img id="slide" src="https://picsum.photos/500/300?1">
+    </div>
+
+    <button onclick="prev()">Previous</button>
+    <button onclick="next()">Next</button>
+
+    <script>
+        let images = [
+            "https://picsum.photos/500/300?1",
+            "https://picsum.photos/500/300?2",
+            "https://picsum.photos/500/300?3"
+        ];
+
+        let index = 0;
+
+        function showSlide() {
+            document.getElementById("slide").src = images[index];
+
+            // call next slide after 3 seconds
+            setTimeout(next, 3000);
+        }
+
+        function next() {
+            index++;
+            if (index >= images.length) {
+                index = 0;
+            }
+            showSlide();
+        }
+
+        function prev() {
+            index--;
+            if (index < 0) {
+                index = images.length - 1;
+            }
+            showSlide();
+        }
+
+        // start slider automatically
+        showSlide();
+    </script>
+
+</body>
+</html>

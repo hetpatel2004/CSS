@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li>What is Css</li>
+        <p>* it is a Styling Sheet use to make presentation layer more Attractive and fell good 
+            with css we can add colours ,Make change in font size , give any animation , or some property etc 
+        </p>
+        <hr>
+        <li> Types of CSS</li>
+        <p>
+            <ol>
+                <li>inline</li>
+                <p>* we can write inline in the same line wear you want to apply it for Ex:- 
+                    <p style=" color: aqua; height: 10px;" >Inline css</p>
+                </p>
+                <li>inturnal</li>
+                <p>* If we want to use css in the same html file so after title we can create style tag and in it we can apply css ex:-</p>
+                <!-- <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+                    <style>
+                        /* hera we can write css styling */
+                    </style>
+                </head>
+                <body>
+                    
+                </body>
+                </html> -->
+                <li>External</li>
+                <p>* in external you have to link style sheet with html code in header by link teg for Ex:-</p>
+                <!-- <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+                    <link rel="stylesheet" href="./xyz(filemane.css)">
+                    <style>
+                        /* hera we can write css styling */
+                    </style>
+                </head>
+                <body>
+                </html> -->
+            </ol>
+        </p>
+        <hr>
+        <li>What is CSS Selectors</li>
+        <p>*CSS selectors are used to "select" HTML elements and apply styles to them. 
+            Understanding different types of selectors allows you to target elements efficiently and write cleaner, more effective stylesheets.</p>
+        <p>Selectors are of 11 types</p>
+        <ul>
+            <li>Element Selector</li>
+            <p>* it target all the element used in code</p>
+            <p> p{
+                color :red;
+            }</p>
+            <br>
+            <li>Class Selector</li>
+            <p>* it target all the class mention used in element and have to declair with "."</p>
+            <p>div class ="box"</p>
+            <p>.box {
+                  border: 1px solid black;
+                }</p>
+            <br>
+            <li>ID Selector</li>
+            <p>* Apply on the given id and symol of using id is "#"</p>
+            <p>div id ="box"</p>
+            <p>#box {
+                border: 1px solid black;
+            }</p>
+            <br>
+            <li>Universal Selector</li>
+            <p>* Apply on the given id and symol of using id is "#"</p>
+            <p>div id ="box"</p>
+            <p>#box {
+                border: 1px solid black;
+            }</p>
+            <br>
+            <li>Grouping Selector</li>
+            <p>Apply css on all the given elements , just have to give , in between</p>
+            <p>h1 het /h1</p>
+            <p>h1 het /h2</p>
+            <p>h1 het /h3</p>
+            <p> h1, h2, h3 {
+                border: 1px solid black;
+            }</p>
+            <br>
+            <li>Descendant Selector</li>
+            <p>Targets elements that are nested inside a specific parent not without using any special symbol just neet to add space between elements as given in the example</p>
+            <p>div
+                p text /p 
+             /div </p>
+            <p>div p {
+                    color: green;
+                }</p>
+            <br>
+            <li>Child Selector</li>
+            <p>* if you want to targeat patrnt's child use like this parent > child </p>
+            <p>ul li text /li 
+                  li text /li
+                /ul
+            </p>
+            <p>ul > li {
+                     list-style-type: square;
+                }</p>
+            <br>
+            <li>Adjacent Sibling Selector</li>
+            <p>* it will just apply css on only one first child , we have to use + Sign </p>
+            <p>div
+                p text /p 
+             /div </p>
+            <p>h1 + p {
+                color: red;
+                    }</p>
+            <br>
+            <li>General Sibling Selector</li>
+            <br>
+            <li>Pseudo-Class</li>
+            <br>
+            <li>Pseudo-Elements</li>
+            <br>
+        </ul>
+    </ol>
+</body>
+</html>
